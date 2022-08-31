@@ -1,0 +1,27 @@
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: none;
+    padding: 0;
+    background: hsl(253,98%,77%);
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top{
+    display: block;
+    padding: 15px 45px;
+    border-radius: 15px;
+    font-size: 2rem;
+    background: hsl(278deg 980% 77%);
+    color: white;
+    transform: translateY(-8px);
+}
+
+.button:hover .top{
+    transform: translateY(-2px);
+}
